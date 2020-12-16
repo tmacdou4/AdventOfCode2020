@@ -14,6 +14,7 @@ for i in range(len(spoken)-1):
 
 print(most_recent)
 
+#takes a little bit to run but will run on my laptop
 last_spoke = spoken[len(spoken)-1]
 for i in range(len(spoken)-1, 29999999):
     if last_spoke in most_recent.keys():
